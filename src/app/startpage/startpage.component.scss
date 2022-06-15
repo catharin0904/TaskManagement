@@ -1,0 +1,19 @@
+@import "../../assets/sass/common";
+
+.add_container{
+    border: 1px solid #272732;
+    padding: 8px;
+    display: flex ;
+    align-items: center;
+    color: #dbdbdd;
+    margin: 80px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    
+
+    p{
+        font-size: 14px;
+
+    }
+}

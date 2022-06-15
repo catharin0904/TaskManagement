@@ -1,1 +1,22 @@
 @import "./utilities/inputstyles";
+@import "./variables/variables";
+
+.box_div{
+    height: 20px;
+    width: 20px;
+    background-color: $base-color;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    i{
+        color: #fff;
+    }
+}
+
+
+// margin 
+.ml-10px{
+    margin-left: 10px;
+}
