@@ -1,4 +1,4 @@
-
+@import "../../assets/sass/utilities/inputstyles";
 
 section {
     background: url(../../assets/images/bg.49756b7c711696d95133fa95451f8e13.svg) transparent;
@@ -12,10 +12,10 @@ section {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        max-width: 430px;
-        min-width: 430px;
+        max-width: 375px;
+        min-width: 300px;
         width:100%;
-        height:500px;
+        height:437px;
         .card_form{
           padding: 40px 0px;
           .form-group{
