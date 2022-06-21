@@ -8,7 +8,7 @@ import { TaskComponent } from './task/task.component';
 import { StartpageComponent } from './startpage/startpage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TodocontainerComponent } from './todocontainer/todocontainer.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +16,13 @@ import { TodocontainerComponent } from './todocontainer/todocontainer.component'
     TaskComponent,
     StartpageComponent,
     NavbarComponent,
-    TodocontainerComponent
+    TodocontainerComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
